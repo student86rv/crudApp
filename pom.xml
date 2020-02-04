@@ -87,7 +87,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>ua.epam.restapidemo.WebApplication</mainClass>
+                            <mainClass>ua.epam.crudApp.WebApplication</mainClass>
                             <name>webapp</name>
                         </program>
                     </programs>
