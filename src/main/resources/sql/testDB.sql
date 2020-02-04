@@ -1,18 +1,26 @@
+USE kep6t95a7zq4bijb;
+
 INSERT INTO skills (name) VALUES
 	('Java'),
     ('C++'),
     ('PHP'),
     ('Front-end');
 
+COMMIT;
+
 INSERT INTO accounts (email, status) VALUES
 	('ivan.ivanov@gmail.com', 'ACTIVE'),
     ('petr.petrov@i.ua', 'BANNED'),
     ('sidor.sidorov@ukr.net', 'DELETED');
 
+COMMIT;
+
 INSERT INTO developers (name, account_id) VALUES
 	('Ivan Ivanov', 1),
     ('Petr Petrov', 2),
     ('Sidor Sidorov', 3);
+
+COMMIT;
 
 INSERT INTO developer_skills (developer_id, skill_id) VALUES
 	(1, 1),
@@ -20,3 +28,5 @@ INSERT INTO developer_skills (developer_id, skill_id) VALUES
     (2, 2),
     (3, 3),
     (3, 4);
+
+COMMIT;
