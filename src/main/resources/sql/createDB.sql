@@ -23,4 +23,3 @@ CREATE TABLE IF NOT EXISTS developer_skills (
     FOREIGN KEY (developer_id) REFERENCES developers (id) ON DELETE CASCADE,
     FOREIGN KEY (skill_id) REFERENCES skills (id) ON DELETE CASCADE
 );
-COMMIT;
