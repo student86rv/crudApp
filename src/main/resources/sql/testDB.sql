@@ -1,20 +1,20 @@
-INSERT INTO skills (name) VALUES
-	('Java'),
-    ('C++'),
-    ('PHP'),
-    ('Front-end');
+INSERT INTO skills (id, name) VALUES
+	(1, 'Java'),
+    (2, 'C++'),
+    (3, 'PHP'),
+    (4, 'Front-end');
 COMMIT;
 
-INSERT INTO accounts (email, status) VALUES
-	('ivan.ivanov@gmail.com', 'ACTIVE'),
-    ('petr.petrov@i.ua', 'BANNED'),
-    ('sidor.sidorov@ukr.net', 'DELETED');
+INSERT INTO accounts (id, email, status) VALUES
+	(1, 'ivan.ivanov@gmail.com', 'ACTIVE'),
+    (2, 'petr.petrov@i.ua', 'BANNED'),
+    (3, 'sidor.sidorov@ukr.net', 'DELETED');
 COMMIT;
 
-INSERT INTO developers (name, account_id) VALUES
-	('Ivan Ivanov', 1),
-    ('Petr Petrov', 2),
-    ('Sidor Sidorov', 3);
+INSERT INTO developers (id, name, account_id) VALUES
+	(1, 'Ivan Ivanov', 1),
+    (2, 'Petr Petrov', 2),
+    (3, 'Sidor Sidorov', 3);
 COMMIT;
 
 INSERT INTO developer_skills (developer_id, skill_id) VALUES
