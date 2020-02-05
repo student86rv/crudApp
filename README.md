@@ -8,15 +8,15 @@ Java, JDBC, MySQL, H2 database, Liquibase, Servlets, JSP
 
 Project structure:
 
-Model level is represented by POJO classes Developer, Account, Skill.
+Model layer is represented by POJO classes Developer, Account, Skill.
 
-Repository level includes the basic application's functionality. Classes DeveloperRepository, AccountRepository and SkillRepository provide 
+Repository layer includes the basic application's functionality. Classes DeveloperRepository, AccountRepository and SkillRepository provide 
 access to appropriate tables in database and execution of CRUD operations.
 
-Service level is represented by DeveloperService, AccountService, SkillService classes. In this project Service level classes don't contain
-any business logic. This classes are used only for representation of appropriate application's level.
+Service layer is represented by DeveloperService, AccountService, SkillService classes. In this project Service layer classes don't contain
+any business logic. This classes are used only for representation of appropriate application's layer.
 
-REST API level is represented by DeveloperServlet, AccountServlet and SkillServlet classes. This classes handle HTTP requests, therefore it
+REST API layer is represented by DeveloperServlet, AccountServlet and SkillServlet classes. This classes handle HTTP requests, therefore it
 provide remote access to data storage.
 
 Please visit application's main page: https://crud-app-rv86.herokuapp.com
