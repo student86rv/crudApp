@@ -22,8 +22,7 @@ public class ConnectionUtil {
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             logger.log(Level.SEVERE, "Database driver registration failed");
-        }
-        properties = readProperties();
+        }        properties = readProperties();
         dataSource.setUrl(properties.getProperty("db.url") +
                 "?serverTimezone=" + TimeZone.getDefault().getID());
         dataSource.setUsername(properties.getProperty("db.username"));

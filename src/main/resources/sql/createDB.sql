@@ -1,3 +1,14 @@
+USE kep6t95a7zq4bijb;
+
+DROP TABLE IF EXISTS developer_skills;
+COMMIT;
+DROP TABLE IF EXISTS developers;
+COMMIT;
+DROP TABLE IF EXISTS skills;
+COMMIT;
+DROP TABLE IF EXISTS accounts;
+COMMIT;
+
 CREATE TABLE IF NOT EXISTS skills (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL
@@ -23,3 +34,5 @@ CREATE TABLE IF NOT EXISTS developer_skills (
     FOREIGN KEY (developer_id) REFERENCES developers (id) ON DELETE CASCADE,
     FOREIGN KEY (skill_id) REFERENCES skills (id) ON DELETE CASCADE
 );
+
+COMMIT;

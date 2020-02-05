@@ -1,3 +1,5 @@
+USE kep6t95a7zq4bijb;
+
 INSERT INTO skills (id, name) VALUES
 	(1, 'Java'),
     (2, 'C++'),
