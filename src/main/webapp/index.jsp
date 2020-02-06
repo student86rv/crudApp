@@ -18,12 +18,24 @@
 </ul>
 
 <h1><fmt:message key="header.message" /></h1>
-
 <span><fmt:message key="description.message" /></span>
 
 <h2><fmt:message key="tech_header.message" /></h2>
-
 <span><fmt:message key="tech_desc.message" /></span>
+
+<h2><fmt:message key="prg_struct_head.message" /></h2>
+
+<h3><fmt:message key="model_header.message" /></h3>
+<span><fmt:message key="model_desc.message" /></span>
+
+<h3><fmt:message key="repo_header.message" /></h3>
+<span><fmt:message key="repo_desc.message" /></span>
+
+<h3><fmt:message key="service_header.message" /></h3>
+<span><fmt:message key="service_desc.message" /></span>
+
+<h3><fmt:message key="rest_header.message" /></h3>
+<span><fmt:message key="rest_desc.message" /></span>
 
 </body>
 </html>
